@@ -37,3 +37,20 @@ Requirements:
 1. Add validation to not to allow a separator at the end or more than one separator between two numbers
 
 1. Allow the add method to handle different delimiters. To change the delimiter, the beginning of the input will contain a separate line that looks like this: //[delimiter]\n[numbers]
+
+### Search functionality
+
+Implement a city search functionality. The function takes a string as input and returns the found cities which corresponds to the search text.
+
+Prerequisites:
+Create a collection of strings that will act as a database for the city names.
+
+Requirements:
+
+1. If the search text is fewer than 2 characters, then should return no results.
+
+1. If the search text is equal to or more than 2 characters, then it should return all the city names that conteins the search text.
+
+1. The search functionality should be case insensitive
+
+1. If the search text is a “*” (asterisk), then it should return all the city names.
